@@ -1,0 +1,10 @@
+# Ignore everything
+/*
+# But not these files and directories...
+!.gitignore
+!.gitattributes
+!.editorconfig
+!Assets/
+!DebugKeystore/
+!Packages/
+!ProjectSettings/
