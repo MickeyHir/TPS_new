@@ -15,10 +15,10 @@ public class CameraFollower : MonoBehaviour
     bool isMouseKeyPresed = false;
     Vector3 oldPos = new Vector2();
     float maxdis = 10;
-    
+
     void Start()
     {
-        
+        target = GameObject.FindGameObjectsWithTag("Player")[0].transform;
     }
 
     void LateUpdate()

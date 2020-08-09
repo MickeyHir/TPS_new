@@ -5,11 +5,11 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public static float step = 10;
-    public float rotationSpeed;
-    public float jump;
+    public float rotationSpeed = 2;
+    public float jump = 10;
     private float _direction = 0;
     private float _movement = step;
-    public float rotationAmount;
+    public float rotationAmount = 2;
     public MovementType movementType;
 
     void Start()
